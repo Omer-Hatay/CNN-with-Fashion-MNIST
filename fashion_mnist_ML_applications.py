@@ -4,8 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt 
 from tensorflow.keras import datasets,models,layers 
 #download the fashion mnist data 
-(training_images,training_labels),(test_images,test_labels)= 
-datasets.fashion_mnist.load_data() 
+(training_images,training_labels),(test_images,test_labels)= datasets.fashion_mnist.load_data() 
 #normilize processing 
 training_images=training_images/255.0 
 test_images=test_images/255.0 
